@@ -1,5 +1,7 @@
 # sepl
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.s-doti/sepl.svg)](https://clojars.org/com.github.s-doti/sepl)
+
 Algorithm execution engine.
 
 ## Premise
@@ -16,34 +18,34 @@ from using this library.
 
 ## Features
 
-*Easy maintenance*<br>
+#### *Easy maintenance*
 Plug and play with existing or new integrations effortlessly.
 
-*Execution-style agnostic*<br> 
+#### *Execution-style agnostic* 
 Run async or blocking, locally or remotely, or fuse different styles together.
 
 ** The above two are largely thanks to the 
 [seamless-async](https://github.com/s-doti/seamless-async) library
 
-*Space-time agnostic*<br>
+#### *Space-time agnostic*
 Execution is data, and data can be sent anywhere (ok, anywhere but backwards in
 time, which is doable, yet can be tricky).
 
-*Pause/resume*<br>
+#### *Pause/resume*
 Execution is data, and data can be persisted.
 
-*Disaster recovery*<br>
+#### *Disaster recovery*
 See above.
 
-*Advanced safety measures*<br>
+#### *Advanced safety measures*
 Automatically break execution by the amount of steps taken, overall running 
 time, or by depth of the unfolding algorithm computation tree.
 
-*User optimizations*<br>
+#### *User optimizations*
 The user may interject optimization logic, that's capable of mutating the execution 
 running state, by observing the unfolding algorithm computation tree.
 
-*Debugging*<br>
+#### *Debugging*
 Similar to code debugging in concept, but at the algorithm terminology level - 
 you debug your own business logic, rather than code lines.
 
