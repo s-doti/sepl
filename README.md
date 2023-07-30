@@ -67,9 +67,9 @@ enrich the internal state of the execution, or to mutate the external state of t
 world. The computation part of the *flow* is generically called *process*, the 
 outcome of which are followup *steps* (see *step* below) to be taken next.   
 *Flows* aim to uniquely identify naturally fragile points of execution, 
-or to segment your logic to the most high-level building blocks. For example, Ginfer - 
-the graph inference library that's built ontop of SePL, only consists of 3 *flows*: 
-update, notify, and eval.
+or to segment your logic to the most high-level building blocks. For example, 
+[Ginfer](https://github.com/s-doti/ginfer) - the graph inference library that's built 
+ontop of SePL, only consists of 3 *flows*: update, notify, and eval.
 
 2. <b>State</b> - a user-defined, stateful context, to be preserved/mutated throughout the 
 execution.  
